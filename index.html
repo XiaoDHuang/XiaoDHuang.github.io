@@ -196,56 +196,122 @@
                     <li>
                         <h3>
                             <span>深圳甲易科技有限公司－前端开发工程师</span>
-                            <time>2017.8-至今</time>
+                            <time>2017.3-至今</time>
                         </h3>
                         <ul class="info-content">
-                            <li>角色： 前端开发leader </li>
-                            <li>该项目是为公安开发的大数据分析平台及数据设备管理平台于一体的综合平台</li>
-                            <li>主要职责， 负责前端的架构、开发、技术方向、公共组件封装，为小伙伴解决疑难问题。</li>
-                            <li>负责前端项目1.0开发工作，页面逻辑， 离线地图, 前端模块化
-                                <mark>jquery + LigerUI + seajs</mark>
-                                <!-- <a href="http://itsay.tech/162/" target="_blank">
-                                    <i class="fa fa-link" aria-hidden="true"></i>博客文章
-                                </a>。 -->
+                            <li>角色：前端开发leader </li>
+                            <li>项目背景：公安系统、大数据分析及数据设备管理的综合平台</li>
+                            <li>主要职责： 负责前端的架构、前端工程化搭建、部分业务开发、技术方向、公共组件封装，为小伙伴解决疑难问题。</li>
+                            <li>技术栈：</br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                前期采用传统：jquery + LigerUI + seajs
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                后期迁移至：webpack + Vue + Vuex + Vue Router + iview
                             </li>
-                            <li>负责前端项目2.0开发工作， 前端工程化、UI组件化封装， 业务代码架构分层
-                                <mark>采用webpack + Vue + Vuex + Vue Router + iview</mark>
+                            <li>前端工程化构建： 
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                构建工具优化配置：代码拆分， 资源优化， 多生产环境构建。
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                配置代码风格检查
+                            </br>
                             </li>
-                            <li>前端工程构建： 构建工具优化配置， 代码拆分， 资源优化， 多生产环境构建， 统一代码风格</li>
-                            <li>业务模块开发： 熟悉百度地图api, 利用canvas高性能封装绘制百度聚合点</li>
-                            <li>业务模块开发： 排查UI组件Bug，二次封装功能组件库</li>
-                            <li>业务模块开发： echart图表监控数据大屏</li>
-                            <li>业务模块开发： d3实现业务关系图谱</li>
-                            <li>了解前端可视化技术 svg\canvas\webGL</li>
-                            <li>熟悉前端可视化库 d3\echart\threejs\...</li>
-                            <li>了解可视化技术性能及区别</li>
-                            <li>熟悉前端工程化构建</li>
+                            <li>业务模块开发： 
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                封装地图聚合类：解决地图大量点位渲染问题，利用canvas进行点位绘制， 在可视区域内根据点位实际像素位置进行聚合，从而达到地图点位高速渲染。
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                二次封装功能组件库: 在实际开发中常常遇到，组件功能无法满足业务个性化需求，常常需要对组件从新封装，实现功能需求。
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                echart图表显示以及大屏rem适配方案
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                d3实现业务关系图谱
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                实现离线地图数据的构建与配置: 在实际项目中包含各个城市的离线地图数据，瓦片，地图加载定位数据及系统配置，对于这些配置进行抽离为子项目， 把公共模块部分，非公共部分进行划分，编写shell脚本，进行压缩打包，交给运维人员进行部署，对于这部内容，由于基本不需要太多变更升级基本稳定， 又涉及资源比较大，所以进行抽离，单独构建。
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                监测分析页面内存泄漏：主要要通过chrome任务管理器及performance和memory做内存分析。1. 监控javascript内存及原生内存变化情况， 2.使用堆快照发现已分离 DOM 树的内存泄漏， 3.使用分配时间线确定 JS 堆内存泄漏
+                                4. 按函数调查内存分配 5.发现频繁的垃圾回收
+                                </br>
+                            </li>
+                            <li>系统架构：
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                serverAPI对接层：这部分内容主要跟服务端RESTful API做对应http接口层的封装，1. 统一头信息设置， 2.统一的状态码处理及异常处理， 3.统一数据处理，4.避免同一接口前端随处重复定义造成系统维护问题.....
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                router路由封装层： 这部分主要借助了路由的导航守卫，做些逻辑处理：比如权限， 借助require.contxt进行路由文件自动导入， webpack4能力进行code路由级别按需加载。
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                libs层： 此处主要放置一些构建好库文件（这一层不常用）主要防止一些不支持npm安装导入的库文件
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                views层：代码业务功能逻辑放置处
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                entrance自定义的系统入口处理层：这里逻辑进行组织业务代码构建系统功能， 保证系统可以构建分析数据管理综合平台， 也可以是数据管理平台功能多个产品入口层。
+                            </li>
+                            <li>其他：
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                尝试从零开始搭建单元测套件：了解各个套件的作用， mocha + webpack-mocha + chai + nyc 主要了解单元测试各个套件层作用。（了解测试驱动开发）
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                尝试利用gitLab + Jenkins 构建自动化部署开发环境 尽管因为没有单元测试覆盖率 尝试自动化构建集成CI
+                                </br>
+                                尝试使用TypeScript： 进行复杂逻辑及组件接口的定义， 解决Js接口定义，及组件的封装不有友好的问题，增强项目代码质量（团队成员有一定熟悉学习成本）。
+                            </li>
                         </ul>
                     </li>
                     <li>
                         <h3>
                             <span>深圳峻石信远科技有限公司－PHP开发工程师</span>
-                            <time>2015.1 至 2017.7</time>
+                            <time>2015.1 至 2017.2</time>
                         </h3>
                         <ul class="info-content">
                             <li>角色： 服务端Api开发</li>
                             <li>该项目是移动端APP开发， 手机相册分享管理打印</li>
                             <li>技术：Apache + PHP + Mysql + Couchbase + 阿里云OSS存储</li>
-                            <li>系统架构： 采用系统用户 + 服务端口 + Mysql主从配置 + 负载均衡</li>
-                            <li>系统用户划分功能模块，一个功能模块对应一个服务端口, 一个服务端口可以配置多台机器进行服务</li>
-                            <li>业务开发：App活动页面日志统计</li>
-                            <li>业务开发：设计优惠券功能</li>
-                            <li>业务开发：支付功能开发工作， 主要完成：支付宝/微信支付等功能的开发工作</li>
-                            <li>业务开发：阿里云OSS对象存储</li>
-                            <li>业务开发：配合IOS Android 端同学联调系统api</li>
-                            <li>业务开发：后期参与移动端H5活动页面开发工作</li>
-                            <li>业务开发：参与H5页面与Native应用之间调用问题</li>
-                            <li>熟悉Linux操作系统</li>
-                            <li>熟练shell基本命令行操作</li>
-                            <li>熟练Linux平台应用服务搭建</li>
-                            <li>了解基本的运维知识</li>
+                            <li>系统架构： 
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                采用系统用户 + 服务端口 + Mysql主从配置 + 负载均衡
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                系统用户划分功能模块，一个功能模块对应一个服务端口, 一个服务端口可以配置多台机器进行服务
+                            </li>
+                            <li>
+                                业务开发：
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                App活动页面日志统计
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                设计优惠券功能
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                支付功能开发工作， 主要完成：支付宝/微信支付等功能的开发工作
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                阿里云OSS对象存储
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                配合IOS Android 端同学联调系统api
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                后期参与移动端H5活动页面开发工作
+                                </br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                参与H5页面与Native应用之间调用问题
+                            </li>
                         </ul>
-                    </li>
+                    </业务开发：支付功能开发工作，>
                 </ul>
             </section>
             <!-- 自我评价 -->
@@ -253,11 +319,12 @@
                 <h2>
                     <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望</h2>
                 <hr/>
-                <p>1. 喜欢了解前端最新的技术， 思考他们背后到底能够解决什么问题（GraphQL、severless、webGL、WebAssembly, TypeScript...）。</p>
-                <p>2. 喜欢了解一些底层设计， 希望从架构角度对他们有个宏观认识，（比如：前端可视化技术：svg/canvas/wegGL他们之间有啥不一样，思考他们应用场景。 网络为什么会分层、意义在于哪里等）。</p>
-                <p>3. 期望能够在前端工程化方向技能有所进展</p>
-                <p>4. 期望能够在前端数据可视化方向， 接触更多应用场景。</p>
-                <p>5. 期望能够接触学习并探讨一些新的稳定技术方案，解决实际项目的实际问题</p>
+                <p>4.5年开发经验， 2年服务端开发，2.5年前端开发. </p>
+                <p>熟悉linux操作系统、linux平台服务端部署搭建，基本的运维知识</p>
+                <p>了解前端可视化技术 svg\canvas\webGL</p>
+                <p>喜欢了解前后端最技术：喜欢参阅thoughtworks技术雷达，查看那些关注技术已进入什么阶段</p>
+                <p>关注前端的团队：Alloy Tearm、凹凸实验室、奇舞团...</p>
+                <p>关注技术社区： InfoQ、印记中文、SegmentFault、LeetCode...</p>
             </section>
             <!-- 教育经历 -->
             <section class="edu info-unit">
