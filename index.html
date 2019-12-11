@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <script>
-        function loading() {
+        
+        function loading1() {
             document.getElementsByClassName('avatar')[0].style.display = 'block';
             document.getElementsByClassName('loading')[0].style.display = 'none';
         }
@@ -72,7 +73,7 @@
                         <span></span>
                     </div>
                     <!-- 头像照片 -->
-                    <img class="avatar" src="assets/images/avatar.jpg" onload="loading()">
+                    <img class="avatar" src="assets/images/avatar.jpg" onload="loading1()">
                 </section>
 
                 <h1 class="name">黄东东</h1>
@@ -197,34 +198,12 @@
                             <span>前端技能：</span>
                         </h3>
                         <ul class="info-content">
-                            <li>
-                                熟悉浏览器运行机制， 能够熟练的通过chrome-devtools进行网页的内存性能分析
-                            </li>
-                            <li>熟悉前端图形技术，svg\canvas\webGl, 并使用过d3/echarts/threejs等。</li>
+                            <li>了解浏览器事件调度机制， 了解浏览器rendering pipeline， 能够熟练的通过chrome-devtools进行网页的内存泄漏以及性能分析</li>
+                            <li>熟悉前端图形技术，svg\canvas\webGl, 并使用过d3/echarts 构建可视化大屏， 以及利用canvas开发高性能地图组件。</li>
                             <li>熟练前端框架Vue，在实际项目使用。</li>
                             <li>熟练前端webpack构建工具，熟悉生态包及插件、并在实际项目有过深入应用</li>
-                            <li>熟悉TypeScript, 并且从实际项目经验来说， 特别看重Typecript,接口封装友好性。</li>
                             <li>负责过前端项目， 角色前端leader, 有一定的业务架构能力， 组件设计能力， 代码抽象能力，项目工程化能力。</li>
-                            <li>有过传统前端开经验JQuery+searJs+LigerUI前后端分离经历， 及ThinkPHP后端框架开发系统的经历。</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>
-                            <span>服务端技能：</span>
-                        </h4>
-                        <ul class="info-content">
-                            <li>
-                                熟悉服务端语言PHP，有过实际项目开发经验。
-                            </li>
-                            <li>
-                                熟悉Nodejs， 写过网络爬虫。
-                            </li>
-                            <li>
-                                熟悉常用关系数据库mysql、PostgreSQL，有过实际项目开发经验
-                            </li>
-                            <li>
-                                了解过go语言
-                            </li>
+                            <li>有过全栈开发经验 后端api及移动端h5页面开发工作，及ThinkPHP后端框架开发管理系统的经历。</li>
                         </ul>
                     </li>
                     <li>
@@ -238,12 +217,12 @@
                             <li>
                                 有过实际linux平台下应用程序开发， 字符终端下，熟练vi/vim等编辑器
                             </li>
-                            <li>
+                            <!-- <li>
                                 了解过docker技术， 实践前端容器化部署等。
                             </li>
                             <li>
                                 了解过linux内核原理、对操作系统进程管理，内存管理、系统调用，有一些感性认识。
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
                     <li>
@@ -252,7 +231,7 @@
                         </h4>
                         <ul class="info-content">
                             <li>
-                                了解常用数据结构算法， 能够进行常规的复杂度分析（最好、最坏、平均）。
+                                了解常用数据结构算法，能够进行常规的复杂度分析。
                             </li>
                             <li>
                                 开源软件开发与应用能力认证
@@ -270,7 +249,7 @@
                     <li>
                         <h3>
                             <span>深圳甲易科技有限公司－前端开发工程师</span>
-                            <time>2016.5-至今</time>
+                            <time>2017.1-至今</time>
                         </h3>
                         <ul class="info-content">
                             <li>角色：前端开发leader </li>
@@ -301,9 +280,6 @@
                                 二次封装功能组件库: 在实际开发中常常遇到，组件功能无法满足业务个性化需求，常常需要对组件从新封装，实现功能需求。
                                 </br>
                                 <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                echart图表显示以及大屏rem适配方案
-                                </br>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                                 d3实现业务关系图谱
                                 </br>
                                 <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
@@ -326,9 +302,6 @@
                                 </br>
                                 <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                                 views层：代码业务功能逻辑放置处
-                                </br>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                entrance自定义的系统入口处理层：这里逻辑进行组织业务代码构建系统功能， 保证系统可以构建分析数据管理综合平台， 也可以是数据管理平台功能多个产品入口层。
                             </li>
                             <li>其他：
                                 </br>
@@ -337,15 +310,13 @@
                                 </br>
                                 <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                                 尝试利用gitLab + Jenkins 构建自动化部署开发环境 尽管因为没有单元测试覆盖率 尝试自动化构建集成CI
-                                </br>
-                                尝试使用TypeScript： 进行复杂逻辑及组件接口的定义， 解决Js接口定义，及组件的封装不有友好的问题，增强项目代码质量（团队成员有一定熟悉学习成本）。
                             </li>
                         </ul>
                     </li>
                     <li>
                         <h3>
-                            <span>深圳峻石信远科技有限公司－PHP开发工程师</span>
-                            <time>2014.6 至 2016.4</time>
+                            <span>深圳峻石信远科技有限公司－PHP全栈开发工程师</span>
+                            <time>2016.1 至 2016.12</time>
                         </h3>
                         <ul class="info-content">
                             <li>角色： 服务端Api开发</li>
@@ -392,7 +363,7 @@
                 <h2>
                     <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望</h2>
                 <hr/>
-                <p>5年开发经验，2年后端开发，3前端开发</p>
+                <p>4年开发经验，1年全栈式开发，3年前端开发</p>
                 <p>热爱编程，喜爱踩坑，热衷前端技术...</p>
                 <p>关注前端的团队：Alloy Tearm、凹凸实验室、奇舞团...</p>
                 <p>关注技术社区： InfoQ、印记中文、SegmentFault、LeetCode...</p>
