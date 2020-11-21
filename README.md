@@ -123,6 +123,7 @@
 ## 技术文章
 - [Life-of-a-Pixel-2018](https://xiaodhuang.gitee.io/2019/08/24/2019-08-24-Life-of-a-Pixel-2018/)
 - [LeetCode 205. Isomorphic Strings 同构字符串](https://zhuanlan.zhihu.com/p/96893817)
+- [一秒搞懂什么是BFC，告别面试窘境](https://juejin.im/post/6892166870200221703)
 
 ## 演讲和讲义
-- [leetcode 动态规划题解](https://leetcode-cn.com/problems/race-car/solution/bfsji-dp-bi-jiao-hao-li-jie-de-can-kao-by-xiaodhua/)
+- [leetcode 动态规划题解](https://leetcode-cn.com/problems/race-car/solution/bfsji-dp-bi-jiao-hao-li-jie-de-can-kao-by-xiaodhua/) 
