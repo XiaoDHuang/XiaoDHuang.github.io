@@ -51,7 +51,7 @@
     
     - Hooks组件获取状态值问题， 原因：如果函数闭包一旦放入Hook状态中，就会容易发生该函数所持有外部组件状态环境将不是组件最新状态值。
     
-    - 开发甘特图组件（难度偏高）：实现类Teamtion甘特组件,  实现日、周、月、季、年任务视图切换、时间无限滚动，实现不同日期视图下的任务拖拽、创建、编辑功能、 实现任务树形表格展开收起。
+    - 开发甘特图组件：实现类Teamtion甘特组件,  实现日、周、月、季、年任务视图切换、时间无限滚动，实现不同日期视图下的任务拖拽、创建、编辑功能、 实现任务树形表格展开收起。
     
     - 由于社区的甘特图组件UI太丑陋，要么收费太过笨重，要么配置不够友好 根据项目自身需求，决定自己开发甘特图组件。
     
@@ -125,4 +125,4 @@
 - [LeetCode 205. Isomorphic Strings 同构字符串](https://zhuanlan.zhihu.com/p/96893817)
 
 ## 演讲和讲义
-- [leetcode 动态规划题解](https://leetcode-cn.com/problems/race-car/solution/bfsji-dp-bi-jiao-hao-li-jie-de-can-kao-by-xiaodhua/) 
+- [leetcode 动态规划题解](https://leetcode-cn.com/problems/race-car/solution/bfsji-dp-bi-jiao-hao-li-jie-de-can-kao-by-xiaodhua/)
