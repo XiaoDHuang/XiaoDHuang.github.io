@@ -55,8 +55,8 @@
 # 开源项目和作品
 
 ## 个人项目
-- toyReact(jsx RangeAPI实现UI绘制逻辑)
-- toyBrower(http字符流、html解析、css Computed、flex排版算法实现简单UI绘制及排版)
-- Animation 动画库（三段贝塞尔曲线cubicBezier算法实现动画曲线效果）
-- Gesture 手势库 （基于自定义事件实现手势库）
-- Carousel（基于Animation、Gesture手势)轮播组件实现
+- [toyReact(jsx RangeAPI实现UI绘制逻辑)](https://github.com/suyuhuan/toyReact)
+- [toyBrower(http字符流、html解析、css Computed、flex排版算法实现简单UI绘制及排版)](https://github.com/suyuhuan/toyBrower)
+- [Animation 动画库（三段贝塞尔曲线cubicBezier算法实现动画曲线效果)](https://github.com/suyuhuan/Animation)
+- [Gesture 手势库 （基于自定义事件实现手势库)](https://github.com/suyuhuan/Gesture)
+- [Carousel（基于Animation、Gesture手势)轮播组件实现](https://github.com/suyuhuan/Carousel)
