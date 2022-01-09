@@ -1,7 +1,7 @@
 
 # 个人信息
  - 黄东东/男/28
- - 工作年限：5年
+ - 工作年限：6年
  - [技术博客](https://xiaodhuang.gitee.io/):  https://xiaodhuang.gitee.io
  - [Github](https://github.com/XiaoDHuang): https://github.com/XiaoDHuang
 - [LeetCode](https://leetcode-cn.com/u/xiaodhuang/): https://leetcode-cn.com/u/xiaodhuang/
@@ -108,10 +108,10 @@
     - 内置代码检查工具及配置、构建脚本的cdn资源上传配置
     - 内置Docker镜像文件，自动化部署配置。
     - 支持项目相关工具的自定义配置文件，如webpack、stylint等工具自定义配置。
-    - 支持在gitLab中私有化NPM发布流程线。
+    - 支持在gitLab中私有化NPM发布流水线。
 - 负责的内容：
     - 负责脚手架动态模板拉取与生成，利用GitLab REST API数据列表，拉取相关模板数据，进行下载生成项目。
-    - 解决webpack5中react-css-modules模块与babel-plugin-react-css-modules模块hash冲突问题
+    - 解决webpack5中react-css-modules模块与babel-plugin-react-css-modules模块hash冲突问题。
     - 负责Taro小程序模板项目搭建。
     - 负责内部lint工具的维护和升级。
 ### 教师端直播客户端
